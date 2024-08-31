@@ -1,10 +1,13 @@
 {
-  "name": "biome-config",
+  "name": "@raviqqe/biome-config",
   "version": "1.0.0",
   "description": "Biome configuration",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "test": "json schema check"
+  },
+  "devDependencies": {
+    "biome": "^0.3.3"
   }
 }
