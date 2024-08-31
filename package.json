@@ -5,7 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "json schema check"
+    "test": "biome check"
   },
   "devDependencies": {
     "biome": "^0.3.3"
