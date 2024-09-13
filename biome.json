@@ -24,11 +24,9 @@
         "useShorthandAssign": { "level": "error" }
       },
       "suspicious": {
+        "noConsole": { "level": "error" },
         "noSkippedTests": { "level": "error" },
         "useAwait": { "level": "error" }
-      },
-      "nursery": {
-        "noConsole": { "level": "error" }
       }
     }
   },
