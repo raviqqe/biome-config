@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/@raviqqe/biome-config?style=flat-square)](https://www.npmjs.com/package/@raviqqe/biome-config)
 [![License](https://img.shields.io/github/license/raviqqe/biome-config.svg?style=flat-square)](LICENSE)
 
-Biome configuration for my porjects.
+Biome configuration for my projects.
 
 ## License
 
