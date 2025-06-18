@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "files": {
-    "ignore": ["public"]
+    "includes": ["**", "!public"]
   },
   "formatter": {
     "enabled": true,
@@ -20,8 +20,17 @@
         "useConsistentArrayType": { "level": "error" },
         "useForOf": { "level": "error" },
         "useFragmentSyntax": { "level": "error" },
-        "useShorthandArrayType": { "level": "error" },
-        "useShorthandAssign": { "level": "error" }
+        "useShorthandAssign": { "level": "error" },
+        "noParameterAssign": "error",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSelfClosingElements": "error",
+        "useSingleVarDeclarator": "error",
+        "noUnusedTemplateLiteral": "error",
+        "useNumberNamespace": "error",
+        "noInferrableTypes": "error",
+        "noUselessElse": "error"
       },
       "suspicious": {
         "noConsole": { "level": "error" },
@@ -30,8 +39,12 @@
       }
     }
   },
-  "organizeImports": {
-    "enabled": true
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
   },
   "overrides": [
     {
