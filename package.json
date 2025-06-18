@@ -8,6 +8,6 @@
     "test": "biome check"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3"
+    "@biomejs/biome": "^2.0.0"
   }
 }
