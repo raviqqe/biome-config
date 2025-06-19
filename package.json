@@ -3,6 +3,10 @@
   "version": "2.0.1",
   "description": "Biome configuration",
   "license": "MIT",
+  "repository": "https://github.com/raviqqe/biome-config",
+  "publishConfig": {
+    "provenance": true
+  },
   "type": "module",
   "scripts": {
     "test": "biome check"
