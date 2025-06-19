@@ -7,7 +7,7 @@
   "scripts": {
     "test": "biome check"
   },
-  "devDependencies": {
+  "peerDependencies": {
     "@biomejs/biome": "^2.0.0"
   }
 }
