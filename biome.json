@@ -1,7 +1,13 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "css": {
+    "parser": {
+      "cssModules": true
+    },
     "formatter": {
+      "enabled": true
+    },
+    "linter": {
       "enabled": true
     }
   },
