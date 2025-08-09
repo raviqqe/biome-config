@@ -17,7 +17,6 @@
         "noDefaultExport": "error",
         "noInferrableTypes": "error",
         "noNegationElse": "error",
-        "noParameterAssign": "error",
         "noParameterAssign": "off",
         "noUnusedTemplateLiteral": "error",
         "noUselessElse": "error",
