@@ -36,6 +36,7 @@
       "suspicious": {
         "noAssignInExpressions": "off",
         "noConsole": "error",
+        "noDuplicateProperties": "off",
         "noSkippedTests": "error",
         "useAwait": "off"
       }
