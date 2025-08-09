@@ -88,11 +88,12 @@
   "overrides": [
     {
       "includes": [
-        "astro.config.ts",
-        "eslint.config.js",
-        "rslib.config.ts",
-        "vite.config.ts",
-        "vitest.config.ts"
+        "**/astro.config.ts",
+        "**/eslint.config.js",
+        "**/eslint.config.ts",
+        "**/rslib.config.ts",
+        "**/vite.config.ts",
+        "**/vitest.config.ts"
       ],
       "linter": {
         "rules": {
