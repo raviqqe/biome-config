@@ -36,7 +36,6 @@
       "suspicious": {
         "noAssignInExpressions": "off",
         "noConsole": "error",
-        "noDuplicateProperties": "off",
         "noSkippedTests": "error",
         "useAwait": "off"
       }
@@ -67,7 +66,12 @@
       "enabled": true
     },
     "linter": {
-      "enabled": true
+      "enabled": true,
+      "rules": {
+        "suspicious": {
+          "noDuplicateProperties": "off"
+        }
+      }
     },
     "parser": {
       "cssModules": true
