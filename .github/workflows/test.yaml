@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: npm install
-      - run: npm run test
+      - run: npm ci
+      - run: npm test
   spell_check:
     runs-on: ubuntu-latest
     steps:
