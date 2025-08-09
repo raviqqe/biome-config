@@ -9,17 +9,6 @@
       }
     }
   },
-  "css": {
-    "formatter": {
-      "enabled": true
-    },
-    "linter": {
-      "enabled": true
-    },
-    "parser": {
-      "cssModules": true
-    }
-  },
   "files": {
     "ignoreUnknown": true,
     "includes": ["**", "!public"]
@@ -58,6 +47,22 @@
         "noSkippedTests": { "level": "error" },
         "useAwait": { "level": "error" }
       }
+    }
+  },
+  "css": {
+    "formatter": {
+      "enabled": true
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "cssModules": true
+    }
+  },
+  "json": {
+    "assist": {
+      "enabled": false
     }
   },
   "overrides": [
