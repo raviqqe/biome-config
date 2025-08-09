@@ -14,29 +14,29 @@
     "rules": {
       "recommended": true,
       "style": {
-        "noDefaultExport": { "level": "error" },
+        "noDefaultExport": "error",
         "noInferrableTypes": "error",
-        "noNegationElse": { "level": "error" },
+        "noNegationElse": "error",
         "noParameterAssign": "error",
         "noUnusedTemplateLiteral": "error",
         "noUselessElse": "error",
         "useAsConstAssertion": "error",
-        "useBlockStatements": { "level": "error" },
-        "useCollapsedElseIf": { "level": "error" },
-        "useConsistentArrayType": { "level": "error" },
+        "useBlockStatements": "error",
+        "useCollapsedElseIf": "error",
+        "useConsistentArrayType": "error",
         "useDefaultParameterLast": "error",
         "useEnumInitializers": "error",
-        "useForOf": { "level": "error" },
-        "useFragmentSyntax": { "level": "error" },
+        "useForOf": "error",
+        "useFragmentSyntax": "error",
         "useNumberNamespace": "error",
         "useSelfClosingElements": "error",
-        "useShorthandAssign": { "level": "error" },
+        "useShorthandAssign": "error",
         "useSingleVarDeclarator": "error"
       },
       "suspicious": {
-        "noConsole": { "level": "error" },
-        "noSkippedTests": { "level": "error" },
-        "useAwait": { "level": "error" }
+        "noConsole": "error",
+        "noSkippedTests": "error",
+        "useAwait": "off"
       }
     }
   },
@@ -88,10 +88,12 @@
   "overrides": [
     {
       "includes": [
-        "astro.config.ts",
-        "eslint.config.js",
-        "vite.config.ts",
-        "vitest.config.ts"
+        "**/astro.config.ts",
+        "**/eslint.config.js",
+        "**/eslint.config.ts",
+        "**/rslib.config.ts",
+        "**/vite.config.ts",
+        "**/vitest.config.ts"
       ],
       "linter": {
         "rules": {
