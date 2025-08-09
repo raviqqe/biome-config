@@ -17,7 +17,7 @@
         "noDefaultExport": "error",
         "noInferrableTypes": "error",
         "noNegationElse": "error",
-        "noParameterAssign": "error",
+        "noParameterAssign": "off",
         "noUnusedTemplateLiteral": "error",
         "noUselessElse": "error",
         "useAsConstAssertion": "error",
@@ -34,6 +34,7 @@
         "useSingleVarDeclarator": "error"
       },
       "suspicious": {
+        "noAssignInExpressions": "off",
         "noConsole": "error",
         "noSkippedTests": "error",
         "useAwait": "off"
@@ -91,6 +92,7 @@
         "**/astro.config.ts",
         "**/eslint.config.js",
         "**/eslint.config.ts",
+        "**/next.config.js",
         "**/rslib.config.ts",
         "**/vite.config.ts",
         "**/vitest.config.ts"
@@ -98,7 +100,17 @@
       "linter": {
         "rules": {
           "style": {
-            "noDefaultExport": { "level": "off" }
+            "noDefaultExport": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/*.test.ts", "**/*.test.tsx"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noNonNullAssertion": "off"
           }
         }
       }
