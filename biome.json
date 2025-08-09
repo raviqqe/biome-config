@@ -9,10 +9,6 @@
       }
     }
   },
-  "files": {
-    "ignoreUnknown": true,
-    "includes": ["**", "!public"]
-  },
   "formatter": {
     "enabled": true,
     "indentStyle": "space",
@@ -76,6 +72,10 @@
       }
     }
   ],
+  "files": {
+    "ignoreUnknown": true,
+    "includes": ["**", "!public"]
+  },
   "vcs": {
     "enabled": true,
     "clientKind": "git",
