@@ -19,7 +19,7 @@
         "noNegationElse": "error",
         "noParameterAssign": "off",
         "noUnusedTemplateLiteral": "error",
-        "noUselessElse": "error",
+        "noUselessElse": "off",
         "useAsConstAssertion": "error",
         "useBlockStatements": "error",
         "useCollapsedElseIf": "error",
