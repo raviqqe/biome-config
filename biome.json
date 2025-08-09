@@ -83,8 +83,8 @@
     }
   ],
   "vcs": {
-    "clientKind": "git",
     "enabled": true,
+    "clientKind": "git",
     "useIgnoreFile": true
   }
 }
