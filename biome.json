@@ -101,7 +101,17 @@
       "linter": {
         "rules": {
           "style": {
-            "noDefaultExport": { "level": "off" }
+            "noDefaultExport": "off"
+          }
+        }
+      }
+    },
+    {
+      "includes": ["**/*.test.ts", "**/*.test.tsx"],
+      "linter": {
+        "rules": {
+          "style": {
+            "noNonNullAssertion": "off"
           }
         }
       }
