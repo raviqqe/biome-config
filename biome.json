@@ -36,6 +36,7 @@
       "suspicious": {
         "noAssignInExpressions": "off",
         "noConsole": "error",
+        "noDuplicateProperties": "off",
         "noSkippedTests": "error",
         "useAwait": "off"
       }
@@ -88,15 +89,7 @@
   },
   "overrides": [
     {
-      "includes": [
-        "**/astro.config.ts",
-        "**/eslint.config.js",
-        "**/eslint.config.ts",
-        "**/next.config.js",
-        "**/rslib.config.ts",
-        "**/vite.config.ts",
-        "**/vitest.config.ts"
-      ],
+      "includes": ["**/*.config.js", "**/*.config.ts"],
       "linter": {
         "rules": {
           "style": {
