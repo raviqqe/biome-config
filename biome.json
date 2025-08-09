@@ -28,6 +28,7 @@
         "useEnumInitializers": "error",
         "useForOf": "error",
         "useFragmentSyntax": "error",
+        "useNamingConvention": "error",
         "useNumberNamespace": "error",
         "useSelfClosingElements": "error",
         "useShorthandAssign": "error",
