@@ -67,10 +67,8 @@
     },
     "linter": {
       "enabled": true,
-      "rules": {
-        "suspicious": {
-          "noDuplicateProperties": "off"
-        }
+      "suspicious": {
+        "noDuplicateProperties": "off"
       }
     },
     "parser": {
