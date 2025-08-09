@@ -1,13 +1,8 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "assist": {
-    "actions": {
-      "source": {
-        "organizeImports": "on",
-        "useSortedAttributes": "on",
-        "useSortedKeys": "on"
-      }
-    }
+  "files": {
+    "ignoreUnknown": true,
+    "includes": ["**", "!public"]
   },
   "formatter": {
     "enabled": true,
@@ -45,6 +40,15 @@
       }
     }
   },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on",
+        "useSortedAttributes": "on",
+        "useSortedKeys": "on"
+      }
+    }
+  },
   "css": {
     "parser": {
       "cssModules": true
@@ -72,10 +76,6 @@
       }
     }
   ],
-  "files": {
-    "ignoreUnknown": true,
-    "includes": ["**", "!public"]
-  },
   "vcs": {
     "enabled": true,
     "clientKind": "git",
