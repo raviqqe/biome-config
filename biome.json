@@ -50,6 +50,12 @@
     }
   },
   "css": {
+    "formatter": {
+      "enabled": true
+    },
+    "linter": {
+      "enabled": true
+    },
     "parser": {
       "cssModules": true
     }
