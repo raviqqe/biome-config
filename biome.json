@@ -49,6 +49,17 @@
       }
     }
   },
+  "javascript": {
+    "formatter": {
+      "enabled": true
+    },
+    "linter": {
+      "enabled": true
+    },
+    "assist": {
+      "enabled": true
+    }
+  },
   "css": {
     "formatter": {
       "enabled": true
@@ -61,8 +72,17 @@
     }
   },
   "json": {
+    "formatter": {
+      "enabled": true
+    },
+    "linter": {
+      "enabled": true
+    },
     "assist": {
       "enabled": false
+    },
+    "parser": {
+      "allowComments": true
     }
   },
   "overrides": [
