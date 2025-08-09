@@ -1,19 +1,8 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "css": {
-    "parser": {
-      "cssModules": true
-    },
-    "formatter": {
-      "enabled": true
-    },
-    "linter": {
-      "enabled": true
-    }
-  },
   "files": {
-    "includes": ["**", "!public"],
-    "ignoreUnknown": true
+    "ignoreUnknown": true,
+    "includes": ["**", "!public"]
   },
   "formatter": {
     "enabled": true,
@@ -26,23 +15,23 @@
       "recommended": true,
       "style": {
         "noDefaultExport": { "level": "error" },
+        "noInferrableTypes": "error",
         "noNegationElse": { "level": "error" },
+        "noParameterAssign": "error",
+        "noUnusedTemplateLiteral": "error",
+        "noUselessElse": "error",
+        "useAsConstAssertion": "error",
         "useBlockStatements": { "level": "error" },
         "useCollapsedElseIf": { "level": "error" },
         "useConsistentArrayType": { "level": "error" },
-        "useForOf": { "level": "error" },
-        "useFragmentSyntax": { "level": "error" },
-        "useShorthandAssign": { "level": "error" },
-        "noParameterAssign": "error",
-        "useAsConstAssertion": "error",
         "useDefaultParameterLast": "error",
         "useEnumInitializers": "error",
-        "useSelfClosingElements": "error",
-        "useSingleVarDeclarator": "error",
-        "noUnusedTemplateLiteral": "error",
+        "useForOf": { "level": "error" },
+        "useFragmentSyntax": { "level": "error" },
         "useNumberNamespace": "error",
-        "noInferrableTypes": "error",
-        "noUselessElse": "error"
+        "useSelfClosingElements": "error",
+        "useShorthandAssign": { "level": "error" },
+        "useSingleVarDeclarator": "error"
       },
       "suspicious": {
         "noConsole": { "level": "error" },
@@ -54,8 +43,26 @@
   "assist": {
     "actions": {
       "source": {
-        "organizeImports": "on"
+        "organizeImports": "on",
+        "useSortedAttributes": "on",
+        "useSortedKeys": "on"
       }
+    }
+  },
+  "css": {
+    "formatter": {
+      "enabled": true
+    },
+    "linter": {
+      "enabled": true
+    },
+    "parser": {
+      "cssModules": true
+    }
+  },
+  "json": {
+    "assist": {
+      "enabled": false
     }
   },
   "overrides": [
