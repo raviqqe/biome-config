@@ -90,6 +90,7 @@
       "includes": [
         "astro.config.ts",
         "eslint.config.js",
+        "rslib.config.ts",
         "vite.config.ts",
         "vitest.config.ts"
       ],
