@@ -80,6 +80,9 @@
     },
     "assist": {
       "enabled": false
+    },
+    "parser": {
+      "allowComments": true
     }
   },
   "overrides": [
