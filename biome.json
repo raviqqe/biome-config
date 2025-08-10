@@ -58,7 +58,10 @@
         "noExportsInTest": "error",
         "noFocusedTests": "error",
         "noSkippedTests": "error",
-        "useAwait": "off"
+        "noVar": "error",
+        "useAwait": "off",
+        "useErrorMessage": "error",
+        "useGuardForIn": "error"
       }
     }
   },
