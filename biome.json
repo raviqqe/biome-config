@@ -54,6 +54,9 @@
         "noAssignInExpressions": "off",
         "noConsole": "error",
         "noDuplicateProperties": "off",
+        "noEvolvingTypes": "error",
+        "noExportsInTest": "error",
+        "noFocusedTests": "error",
         "noSkippedTests": "error",
         "useAwait": "off"
       }
