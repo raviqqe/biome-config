@@ -38,7 +38,7 @@
         "useFilenamingConvention": {
           "level": "error",
           "options": {
-            "filenameCases": ["kebab-case", "export"]
+            "filenameCases": ["kebab-case", "PascalCase"]
           }
         },
         "useDefaultParameterLast": "error",
@@ -58,7 +58,6 @@
         "noAssignInExpressions": "off",
         "noConsole": "error",
         "noDuplicateProperties": "off",
-        "noEvolvingTypes": "error",
         "noExportsInTest": "error",
         "noFocusedTests": "error",
         "noSkippedTests": "error",
