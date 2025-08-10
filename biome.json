@@ -24,25 +24,48 @@
         "noUnusedTemplateLiteral": "error",
         "noUselessElse": "off",
         "useAsConstAssertion": "error",
+        "useAtIndex": "error",
         "useBlockStatements": "error",
         "useCollapsedElseIf": "error",
+        "useCollapsedIf": "error",
         "useConsistentArrayType": "error",
+        "useConsistentMemberAccessibility": {
+          "level": "error",
+          "options": {
+            "accessibility": "explicit"
+          }
+        },
+        "useFilenamingConvention": {
+          "level": "error",
+          "options": {
+            "filenameCases": ["kebab-case", "export"]
+          }
+        },
         "useDefaultParameterLast": "error",
         "useEnumInitializers": "error",
         "useForOf": "error",
         "useFragmentSyntax": "error",
         "useNamingConvention": "error",
+        "useNodeAssertStrict": "error",
+        "useNodejsImportProtocol": "error",
         "useNumberNamespace": "error",
         "useSelfClosingElements": "error",
         "useShorthandAssign": "error",
-        "useSingleVarDeclarator": "error"
+        "useSingleVarDeclarator": "error",
+        "useThrowOnlyError": "error"
       },
       "suspicious": {
         "noAssignInExpressions": "off",
         "noConsole": "error",
         "noDuplicateProperties": "off",
+        "noEvolvingTypes": "error",
+        "noExportsInTest": "error",
+        "noFocusedTests": "error",
         "noSkippedTests": "error",
-        "useAwait": "off"
+        "noVar": "error",
+        "useAwait": "off",
+        "useErrorMessage": "error",
+        "useGuardForIn": "error"
       }
     }
   },
