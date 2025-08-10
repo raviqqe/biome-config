@@ -30,12 +30,16 @@
         "useCollapsedIf": "error",
         "useConsistentArrayType": "error",
         "useConsistentMemberAccessibility": {
-          "accessibility": "explicit",
-          "level": "error"
+          "level": "error",
+          "options": {
+            "accessibility": "explicit"
+          }
         },
         "useFilenamingConvention": {
-          "filenameCases": ["kebab-case", "export"],
-          "level": "error"
+          "level": "error",
+          "options": {
+            "filenameCases": ["kebab-case", "export"]
+          }
         },
         "useDefaultParameterLast": "error",
         "useEnumInitializers": "error",
