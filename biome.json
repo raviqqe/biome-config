@@ -47,7 +47,8 @@
         "useNumberNamespace": "error",
         "useSelfClosingElements": "error",
         "useShorthandAssign": "error",
-        "useSingleVarDeclarator": "error"
+        "useSingleVarDeclarator": "error",
+        "useThrowOnlyError": "error"
       },
       "suspicious": {
         "noAssignInExpressions": "off",
