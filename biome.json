@@ -33,6 +33,10 @@
           "accessibility": "explicit",
           "level": "error"
         },
+        "useFilenamingConvention": {
+          "filenameCases": ["kebab-case", "export"],
+          "level": "error"
+        },
         "useDefaultParameterLast": "error",
         "useEnumInitializers": "error",
         "useForOf": "error",
