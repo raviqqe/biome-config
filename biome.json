@@ -23,10 +23,16 @@
         "noParameterAssign": "off",
         "noUnusedTemplateLiteral": "error",
         "noUselessElse": "off",
+        "useAtIndex": "error",
         "useAsConstAssertion": "error",
         "useBlockStatements": "error",
         "useCollapsedElseIf": "error",
+        "useCollapsedIf": "error",
         "useConsistentArrayType": "error",
+        "useConsistentMemberAccessibility": {
+          "accessibility": "explicit",
+          "level": "error"
+        },
         "useDefaultParameterLast": "error",
         "useEnumInitializers": "error",
         "useForOf": "error",
