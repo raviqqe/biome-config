@@ -115,7 +115,7 @@
   },
   "overrides": [
     {
-      "includes": ["**/*.config.js", "**/*.config.ts"],
+      "includes": ["**/*.config.js", "**/*.config.ts", "**/*.d.ts"],
       "linter": {
         "rules": {
           "style": {
@@ -130,6 +130,9 @@
         "rules": {
           "style": {
             "noNonNullAssertion": "off"
+          },
+          "suspicious": {
+            "useErrorMessage": "off"
           }
         }
       }
