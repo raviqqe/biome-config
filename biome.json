@@ -17,6 +17,7 @@
         "useExhaustiveDependencies": "off"
       },
       "style": {
+        "useConsistentObjectDefinitions": "error",
         "noDefaultExport": "error",
         "noInferrableTypes": "error",
         "noNegationElse": "error",
