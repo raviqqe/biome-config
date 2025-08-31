@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: ./.github/actions/setup
-      - run: pnpm test
+      - run: node --run test
   spell_check:
     runs-on: ubuntu-latest
     steps:
