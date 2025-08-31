@@ -12,7 +12,7 @@
     "test": "biome check"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.1.4"
+    "@biomejs/biome": "^2.2.2"
   },
   "peerDependencies": {
     "@biomejs/biome": "^2.1.4"
