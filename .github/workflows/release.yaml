@@ -16,5 +16,5 @@ jobs:
       - uses: ./.github/actions/setup
       - uses: raviqqe/pnpm-publish@v2
         with:
-          build_script: test
+          build_script:
           release: ${{ github.ref == 'refs/heads/main' }}
