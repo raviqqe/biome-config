@@ -18,8 +18,8 @@
         "useExhaustiveDependencies": "off"
       },
       "style": {
-        "useConsistentObjectDefinitions": "error",
         "noDefaultExport": "error",
+        "noDescendingSpecificity": "error",
         "noInferrableTypes": "error",
         "noNegationElse": "error",
         "noParameterAssign": "off",
@@ -31,6 +31,7 @@
         "useCollapsedElseIf": "error",
         "useCollapsedIf": "error",
         "useConsistentArrayType": "error",
+        "useConsistentObjectDefinitions": "error",
         "useConsistentMemberAccessibility": {
           "level": "error",
           "options": {
@@ -91,6 +92,9 @@
     }
   },
   "css": {
+    "parser": {
+      "cssModules": true
+    },
     "formatter": {
       "enabled": true
     },
