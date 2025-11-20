@@ -2,7 +2,6 @@
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!public"],
     "maxSize": 1073741824
   },
   "formatter": {
