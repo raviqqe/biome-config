@@ -24,6 +24,7 @@
         "noParameterAssign": "off",
         "noUnusedTemplateLiteral": "error",
         "noUselessElse": "off",
+        "useArrowFunction": "error",
         "useAsConstAssertion": "error",
         "useAtIndex": "error",
         "useBlockStatements": "error",
@@ -59,7 +60,6 @@
       "suspicious": {
         "noAssignInExpressions": "off",
         "noConsole": "error",
-        "noDuplicateProperties": "off",
         "noExportsInTest": "error",
         "noFocusedTests": "error",
         "noSkippedTests": "error",
