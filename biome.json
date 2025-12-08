@@ -151,6 +151,16 @@
           }
         }
       }
+    },
+    {
+      "includes": ["**/*.module.css"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noDuplicateProperties": "off"
+          }
+        }
+      }
     }
   ],
   "vcs": {
