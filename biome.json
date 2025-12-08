@@ -13,6 +13,9 @@
     "enabled": true,
     "rules": {
       "recommended": true,
+      "complexity": {
+        "useArrowFunction": "error"
+      },
       "correctness": {
         "useExhaustiveDependencies": "off"
       },
@@ -59,7 +62,6 @@
       "suspicious": {
         "noAssignInExpressions": "off",
         "noConsole": "error",
-        "noDuplicateProperties": "off",
         "noExportsInTest": "error",
         "noFocusedTests": "error",
         "noSkippedTests": "error",
