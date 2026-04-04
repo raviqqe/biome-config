@@ -34,12 +34,7 @@
         "useCollapsedIf": "error",
         "useConsistentArrayType": "error",
         "useConsistentObjectDefinitions": "error",
-        "useConsistentMemberAccessibility": {
-          "level": "error",
-          "options": {
-            "accessibility": "explicit"
-          }
-        },
+        "useConsistentMemberAccessibility": "error",
         "useFilenamingConvention": {
           "level": "error",
           "options": {
