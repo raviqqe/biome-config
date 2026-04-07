@@ -60,6 +60,7 @@
         "noConsole": "error",
         "noExportsInTest": "error",
         "noFocusedTests": "error",
+        "noImportCycles": "error",
         "noSkippedTests": "error",
         "noVar": "error",
         "useAwait": "off",
