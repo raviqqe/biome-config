@@ -13,7 +13,6 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
       "a11y": {
         "noSvgWithoutTitle": "off"
       },
@@ -23,6 +22,7 @@
       "correctness": {
         "useExhaustiveDependencies": "off"
       },
+      "preset": "recommended",
       "style": {
         "noDefaultExport": "error",
         "noDescendingSpecificity": "error",
